@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: #a3a3a3;
+background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+height: 100vh;
+overflow: hidden;
+display: flex;
+
+}
+
+img{
+  width: 30%;
+}
+
+.wrapper{
+  background-color: #a3a3a3;
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+width: 600px;
+height: 400px;
+margin: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: 500;
+  color: #A91079;
+  margin: 40px 0;
+}
+p{
+  color: #810CA8;
+  font-size: 22px;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #00A9FF;
+  /* border: 1px solid #00A9FF ; */
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+}
